@@ -8,7 +8,7 @@ import torch.nn as nn
 import math
 from definition.GATLayer import GAT
 from definition.WordEncoder import WordEncoder,AttAggregate
-from definition.TimeEncoder import TimeEncoding
+#from definition.TimeEncoder import TimeEncoding
 from dgl.nn.pytorch.conv import GATConv, GraphConv
 import dgl
 
